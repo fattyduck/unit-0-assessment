@@ -16,6 +16,7 @@ public class Unit0Tests {
       printHelloWorld();
         bonusPrintOutSumOfFirstTenFibonacciNumbers();
         bonusPrintOutSumOfFirstFortyFibonacciNumbers();
+        System.out.println(returnPrimitiveBooleanTrue());
     }
 
     public static void printHelloWorld() {
@@ -149,6 +150,8 @@ public class Unit0Tests {
       HashMap<String,Person> map = new HashMap<String, Person>();
         Person AlanTuring= new Person("Alan Turing");
         Person GraceHopper= new Person("Grace Hopper");
+        AlanTuring.setCity("London");
+        GraceHopper.setCity("Arlington");
         map.put(AlanTuring.getName(),AlanTuring);
         map.put(GraceHopper.getName(),GraceHopper);
         return map;
