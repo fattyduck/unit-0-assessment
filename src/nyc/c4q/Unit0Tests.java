@@ -23,19 +23,19 @@ public class Unit0Tests {
       System.out.println("Hello World");
     }
 
-    public static Object returnPrimitiveBooleanTrue() {
+    public static boolean returnPrimitiveBooleanTrue() {
         return true;
     }
 
-    public static Object returnPrimitiveInt1729() {
+    public static int returnPrimitiveInt1729() {
       return 1729;
     }
 
-    public static Object returnPrimitiveDoubleThreePointOneFour() {
+    public static double returnPrimitiveDoubleThreePointOneFour() {
       return 3.14;
     }
 
-    public static Object returnPrimitiveCharZ() {
+    public static char returnPrimitiveCharZ() {
         return 'Z';
     }
 
